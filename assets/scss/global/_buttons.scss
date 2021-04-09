@@ -1,0 +1,95 @@
+
+.btn {
+  @include reset-button();
+
+  background-color: $brand-color;
+
+  text-align: center;
+  color: #fff;
+
+  font-family: $font-family;
+  font-size: 16px;
+
+
+  line-height: 20px;
+
+
+  transition: all 0.2s ease-in-out;
+
+  &__modal{
+    background-color: #5061FF;
+    border-radius: 5px;
+    border: none;
+    padding: 20px 55px 19px 55px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    &:hover {
+      background-color: lighten(#5061FF, 3%);
+      box-shadow: none;
+
+    }
+
+    &:active {
+      transform: translateY(3px);
+      box-shadow: none;
+      background-color: darken( #5061FF, 10%);
+    }
+
+    &:active,
+    &:focus,
+    &:hover {
+      color: #fff;
+      text-decoration: none !important;
+      outline: none !important;
+    }
+    @media (max-width: 767.98px){
+      padding: 20px 0 20px 0 ;
+      width: 100%;
+      max-width: 320px;
+    }
+  }
+  &__orange{
+    background-color: #FF6600;
+    border-radius: 5px;
+    border: none;
+    padding: 20px 55px 19px 55px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+
+    &:hover {
+      background-color: lighten( #FF6600, 3%);
+      box-shadow: none;
+
+    }
+
+    &:active {
+      transform: translateY(3px);
+      box-shadow: none;
+      background-color: darken(  #FF6600, 10%);
+    }
+
+    &:active,
+    &:focus,
+    &:hover {
+      color: #fff;
+      text-decoration: none !important;
+      outline: none !important;
+    }
+    @media (max-width: 767.98px){
+      padding: 20px 0 20px 0 ;
+      width: 100%;
+      max-width: 320px;
+    }
+  }
+}

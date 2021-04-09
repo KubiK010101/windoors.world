@@ -1,0 +1,164 @@
+.section-1{
+  padding: 80px 0 100px 0 ;
+  background-image: url("../../img/section-1_bg.png");
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-size: cover;
+
+  &__title{
+    font-size: 36px;
+    line-height: 53px;
+    color: #F2F2F2;
+    padding-bottom: 32px;
+  }
+
+  &__card{
+    background-color: #FF6600;
+    opacity: 0.8;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    min-height: 210px;
+    margin-bottom: 30px;
+    position: relative;
+
+
+  }
+  &__card-items{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F2F2F2;
+    opacity: 100%;
+    display: block;
+    margin-left: 25px;
+    margin-bottom: 24px;
+    bottom: 0;
+    padding-top: 152px;
+
+  }
+  &__card-1::before{
+    content: ' ';
+    background-image: url("../../img/card-1.svg");
+    background-size:contain ;
+
+    position: absolute;
+
+    height: 50px;
+    width: 50px;
+    right: 0;
+    margin-right: 30px;
+    bottom: 25px;
+
+
+    background-repeat: no-repeat;
+
+    z-index: -1;
+    display: block;
+
+  }
+  &__card-2::before{
+    content: ' ';
+    background-image: url("../../img/card-2.svg");
+    background-size:contain ;
+
+    position: absolute;
+
+    height: 50px;
+    width: 50px;
+    right: 0;
+    margin-right: 30px;
+    bottom: 25px;
+
+    background-repeat: no-repeat;
+
+
+    display: block;
+  }
+  &__card-3::before{
+    content: ' ';
+    background-image: url("../../img/card-3.svg");
+    background-size:contain ;
+
+    position: absolute;
+
+    height: 45px;
+    width: 45px;
+    right: 0;
+    margin-right: 20px;
+
+    bottom: 25px;
+
+    background-repeat: no-repeat;
+
+
+    display: block;
+  }
+  &__card-4::before{
+    content: ' ';
+    background-image: url("../../img/card-4.svg");
+    background-size:contain ;
+
+    position: absolute;
+
+    height: 50px;
+    width: 50px;
+    right: 0;
+    margin-right: 30px;
+    bottom: 25px;
+
+    background-repeat: no-repeat;
+
+
+
+    display: block;
+  }
+  &__card-5::before{
+    content: ' ';
+    background-image: url("../../img/card-5.svg");
+    background-size:contain ;
+
+    position: absolute;
+
+    height: 50px;
+    width: 50px;
+    right: 0;
+    margin-right: 30px;
+    bottom: 25px;
+    background-repeat: no-repeat;
+
+    display: block;
+  }
+  &__card-6::before{
+    content: ' ';
+    background-image: url("../../img/card-6.svg");
+    background-size:contain ;
+
+    position: absolute;
+
+    height: 50px;
+    width: 50px;
+    right: 0;
+    margin-right: 30px;
+    bottom: 25px;
+
+   background-repeat: no-repeat;
+    display: block;
+  }
+  @media (max-width: 1399.98px){
+    &__card-items{
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 767.98px){
+    &__title{
+      font-size: 30px;
+      line-height: 44px;
+    }
+
+  }
+
+}

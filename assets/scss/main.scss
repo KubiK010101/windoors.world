@@ -1,0 +1,137 @@
+
+// GLOBAL STYLES
+@import "global/custom-variables";
+
+@import "global/functions";
+@import "global/bootstrap-variables";
+@import "global/mixins";
+@import "global/reboot";
+@import "global/type";
+@import "global/grid";
+@import "global/forms";
+@import "global/buttons";
+@import "global/utilities";
+@import "global/fonts";
+@import "global/tabs";
+
+// PLUGINS STYLE
+//@import "plugins/icons";
+@import "plugins/owl.carousel.min";
+@import "plugins/owl.theme.default.min";
+
+// BLOCKS STYLE
+@import "blocks/popup-block";
+@import "blocks/nav";
+@import "blocks/header";
+@import "blocks/section-1";
+@import "blocks/section-2";
+@import "blocks/section-3";
+@import "blocks/section-4";
+@import "blocks/section-5";
+@import "blocks/section-6";
+@import "blocks/section-7";
+@import "blocks/section-8";
+@import "blocks/section-9";
+@import "blocks/section-10";
+@import "blocks/section-form";
+@import "blocks/carousel";
+
+
+body {
+
+	position: relative;
+	background-color: #fff;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	line-height: 1.2;
+	font-size: 16px;
+	min-width: 320px;
+
+}
+
+
+
+.home-demo .item {
+	background: #ff3f4d;
+}
+.home-demo h2 {
+	color: #FFF;
+	text-align: center;
+	padding: 5rem 0;
+	margin: 0;
+	font-style: italic;
+	font-weight: 300;
+}
+
+
+@media (max-width: 991.98px) {
+	.flex-container {
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-direction: column-reverse;
+		-ms-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+		-webkit-flex-wrap: nowrap;
+		-ms-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+	}
+	.flex-item:nth-child(1) {
+		-ms-flex-order: 1;
+		order: 1;
+		-webkit-flex: 0 1 auto;
+		-ms-flex: 0 1 auto;
+		flex: 0 1 auto;
+		-webkit-align-self: auto;
+		align-self: auto;
+	}
+
+	.flex-item:nth-child(2) {
+		-ms-flex-order: 2;
+		order: 2;
+		-webkit-flex: 0 1 auto;
+		-ms-flex: 0 1 auto;
+		flex: 0 1 auto;
+		-webkit-align-self: auto;
+		align-self: auto;
+	}
+}
+.title{
+	font-style: normal;
+	font-size: 36px;
+	line-height: 53px;
+	display: block;
+	color: #4F4F4F;
+	font-weight: bolder;
+}
+.sub-title {
+	display: block;
+	color: #000000;
+	position: relative;
+	font-weight: 600;
+}
+.sub-title::before {
+	content: ' ';
+	background-color: #BDBDBD;
+	background-repeat: no-repeat;
+
+	position: absolute;
+	right: 0;
+	top: 50px;
+	height: 1px;
+	display: block;
+	width: 100%;
+}
+.owl-prev{
+	display: none;
+}
+.owl-next{
+	display: none;
+}
+.a{
+	display: block;
+}
