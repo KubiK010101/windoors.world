@@ -64,8 +64,9 @@
     }
   }
   @media (min-width:767.98px) {
-    &__btn-pc{
 
+    &__btn-md{
+      display: none;
     }
   }
   @media (max-width: 767.98px){
